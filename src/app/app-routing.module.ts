@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path: 'admin', loadChildren: () => import('./amin/amin.module')
       .then(mod => mod.AminModule)
+  },
+  {
+    path: 'admin', loadChildren: () => import('./amin/amin.module')
+      .then(mod => mod.AminModule)
   }
 ];
 
